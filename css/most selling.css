@@ -29,6 +29,10 @@ nav img{
 .con{
     background-color: white;
 }
+.con a:active{
+    border-bottom: 2px solid #632a7b; 
+    
+}
 /* end div1 */
 /* start footer */
 footer{

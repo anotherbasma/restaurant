@@ -1,0 +1,39 @@
+body{
+    background-color: #f1f1f1!important;
+    
+}
+/* nav.....*/
+.navbar{
+    background-color: #ffd500;
+}
+nav{
+    background-color: #ffd500;
+    
+    
+}
+nav img{
+    width: 50%;
+    height: 100%;
+   }
+.group{
+    
+}
+.bag{
+    width: 15%;
+    height: 100%; 
+    
+}
+
+/* end nav*/
+/* start div1 */
+.con{
+    background-color: white;
+}
+/* end div1 */
+/* start footer */
+footer{
+    background-color: #632a7b;
+    
+}
+
+

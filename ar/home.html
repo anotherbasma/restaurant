@@ -1,53 +1,211 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<html lang="ar">
+	  <head>
+	  
+	  
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- fontawesome liberary -->
+		<link rel="stylesheet" href="../css/all.min.css">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/bootstrap-rtl.css">
+		<!-- animate.css file -->
+		<link rel="stylesheet" href="../css/animate.css">
+		<link rel="stylesheet" href="../css/home.css">	
+		
+		<title>اطلب</title>
+	  </head>
+	  <body>
+		<!-- start navbar-->
+		 <section class="nav text-center">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					  <a href="#"><img src="../images/logo_new (1).svg" alt="logo icon" class="logo my-1"/></a>
+					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					  </button>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
-    </head>
-      <body>
-  <!--HTML For Menu-->  
-            <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             الأكثر مبيعا
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">عرض السنة الجديدة</a>
-              <a class="dropdown-item" href="#">ساندوتش كريسبى بلاز ماجنم</a>
-              <a class="dropdown-item" href="#"> 	
-    راب دجاج مشوي             	</a>
-              <a class="dropdown-item" href="#">	
-    ساندوتش دجاج بانيه ماجنوم</a>
-      <a class="dropdown-item" href="#">كومبو وسط</a>
+					  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto my-1">
+						  <li class="nav-item">
+							<a class="nav-link" href="#">عروض المطاعم <span class="sr-only">(current)</span></a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="#">الأكثر مبيعا</a>
+						  </li>
+						   <li class="nav-item">
+							<a class="nav-link" href="#">جميع المطاعم</a>
+						  </li>
+						   <li class="nav-item">
+							<a class="nav-link" href="#">تسجيل الدخول</a>
+						  </li>
+						   <li class="nav-item">
+							<a class="nav-link" href="#">English</a>
+						  </li>	 
+							<li class="nav-item">
+							<a class="nav-link" href="#"><img src="../images/icon_cart.svg" alt="icon cart" class="cart" /></a>
+						  </li>	
+						</ul>	 
+					  </div>
+				</nav>
+			</div>
+		 </section>
+		<!-- end navbar-->
+		
+		<!-- start section select-food-->
+		<section class="select-food text-center">
+			<div class="container">
+				<h1 class="pt-5 pb-4">اطلب الطعام اون لاين في مصر</h1>
+				<div class="row">
+					<div class="col-8 offset-2 py-3 food">
+						<div class="row">
+							<p class="col-12 pt-3 pb-2">اختر منطقتك لعرض المطاعم القريبة من حولك</p>
+							<select class="col-4 form-control form-control-lg offset-2">
+								<option>اختر المدينه</option>
+							</select>
+							<select class="col-4 form-control form-control-lg mb-3">
+								<option>اختر المنطقه</option>
+							</select>
+							<select class="col-8 form-control form-control-lg offset-2">
+								<option>اختر نوع المطبح</option>
+							</select>
+							<a href="#" class="btn btn-success col-4 offset-4 my-4 py-3">عرض المطاعم</a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end section request-food-->
+		
+		<!-- start section headings-->
+		<section class="py-4 text-center headings">
+			<div class="container">
+				<div class="row">
+					<p class="col-4"><img src="../images/icon_rest_new.svg" /> اختر المطعم</p>	 
+					<p class="col-4"><img src="../images/icon_meal_new.svg" /> اطلب وجبتك</p>
+					<p class="col-4"><img src="../images/icon_smiley_new.svg" /> استمتع بطعامك</p>
+				</div>
+			</div>
+		</section>
+		<!-- end section headings-->
+		
+		<!-- start section text-->
+		<section class="text-center py-5 text">
+			<div class="container">
+					<p>اطلب الطعام اون لاين</p>
+					<p class="py-2 last">خيارات لا محدودة من الأطباق و المطاعم</p>
+					<hr class="hr-text"/>					
+			</div>
+		</section>
+		<!-- end section text-->
+		
+			<!-- start section meal-->
+			<div class="container pb-5 meal">
+				<div class="row">
+					<div class="col-sm-12 col-md-4 pt-3">
+						<img src="../images/img_about.jpg" />
+					</div>
+					<div class="col-sm-12 col-md-6 offset-2">
+						<p class="mb-0">من نحن</p>
+						<p class="pb-2 mb-1 p">
+						 Otlob هو الابليكشن والموقع الإلكتروني المفضل لمحبي الطعام لطلب الطعام . نضع بين يديك الآلاف من أفضل المطاعم العالمية والمحلية. يمكنك البحث عن المطعم وتصنيفه وتصفيته وتقييمه وترتيبه بمنتهى السهولة وسوف يعتني Otlob بالباقي.
+						</p>
+						<p class="mb-0">ما نقوم به</p>
+						<p class="pb-2 p">
+						 Otlob هو أكبر خدمة طلب الطعام في مصر ويعمل في أكثر من 25 مدينة. يمكن للعملاء الطلب أكثر من 2000 مطعم بمنتهى السهولة ، وسوف يعتني ​​Otlob بالباقي.
+						</p>
+						<p class="mb-0">ابدأوا ألذّ رحلة</p>
+						<p class="pb-2 p">
+						استخدم تقنية GPS لتحديد مكانك ، واختار مطعمك المفضل والوجبة . يسمح لك تطبيق Otlob بالدفع تفضل وتحفظ تفاصيل التسليم لتسهيل عملية إعادة الطلب.
+						</p>
+					</div>
+				
+				</div>
+			</div>
+			<!-- end section meal-->
+			
+			<!--start footer-->
+			<section class="text-decoration-none text-center footer">
+				<div class="container top-links py-4">	 
+						<a href="#">من نحن</a>
+						<a href="#">شاركنا رايك</a>
+						<a href="#">وظائف</a>
+						<a href="#">الشروط والاحكام</a>
+						<a href="#">أسئله متكرره</a>
+						<a href="#">خصوصية الموقع</a>
+						<a href="#">اتصل بنا</a>
+						<a href="#">خريطة الموقع</a> 			
+				</div>
+				<div class="container text-center pt-3 bottom-links">
+					<div>
+						<p>المطاعم</p>
+						<a href="#" class="btn">جو سوشي - الزمالك</a>
+						<a href="#" class="btn">المطعم الهندي - الزمالك</a>
+						<a href="#" class="btn">عمو حسني</a>
+						<a href="#" class="btn">دوار فرح - المهندسين</a>
+						<a href="#" class="btn">otlob Test Restaurant 2</a>
+						<a href="#" class="btn mb-5">مطاعم أخرى</a>
+					
+					</div>
+					<div>
+						<p>مطابخ شائعة</p>
+						<a href="#" class="btn">المأكولات الإيطاليـة</a>
+						<a href="#" class="btn">المأكولات المكسيكيـة</a>
+						<a href="#" class="btn">الساندوتشات</a>
+						<a href="#" class="btn">المأكولات اليابانيـة</a>
+						<a href="#" class="btn">البيتزا</a>
+						<a href="#" class="btn btn mb-5">مطابخ أخرى</a>
+					
+					</div>
+					<div>
+						<p>مناطق شائعة</p>
+						<a href="#" class="btn">ابو راضي</a>
+						<a href="#" class="btn">الوراقة</a>
+						<a href="#" class="btn">شارع البحر</a>
+						<a href="#" class="btn">الجيش</a>
+						<a href="#" class="btn">الرجبي</a>
+						<a href="#" class="btn btn mb-5">مناطق أخرى</a>
+					
+					</div>
+					<div class="social">
+						<p>تابعنا من خلال مواقع التواصل الإجتماعي</p>
+						<a href="#" class="btn"><i class="fab fa-facebook-f"></i></a>
+						<a href="#" class="btn"><i class="fab fa-twitter"></i></a>
+						<a href="#" class="btn"><i class="fab fa-linkedin-in"></i></a>
+						<a href="#" class="btn"><i class="fab fa-google-plus-g"></i></a>
+						<a href="#" class="btn"><i class="fab fa-linkedin-in"></i></a>
+						<a href="#" class="btn btn mb-5"><i class="fab fa-youtube"></i></a>
+					
+					</div>
+				</div>
+				<div class="container copyright py-3">
+				<p>للحصول على المساعدة يمكنك التواصل معنا من خلال المحادثة المباشرة</p>
+				<p>©2019 Otlob</p>
+				</div>
+			</section>
 
+			<!--end footer-->
+			
 
+		
+		 
+		
 
-            </div>
-          </div>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+		 
+	 
+	   
+	   
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://cdn.rtlcss.com/bootstrap/v4.2.1/js/bootstrap.min.js" integrity="sha384-a9xOd0rz8w0J8zqj1qJic7GPFfyMfoiuDjC9rqXlVOcGO/dmRqzMn34gZYDTel8k" crossorigin="anonymous"></script>
-  </body>
-</html>
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="../js/jquery-3.3.1.slim.min.js"></script>
+		<script src="../js/popper.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>	
+	  </body>
+
+  
+  
+  </html>

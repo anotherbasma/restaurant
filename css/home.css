@@ -1,6 +1,8 @@
+/*templete author: wafaa ibrahem*/
+
 /* start main rulez */
 body{
-	direction:rtl;
+	
 	 
 }
  :root{
@@ -22,7 +24,12 @@ body{
 }
 .navbar-light .navbar-nav .nav-link {
     color:var(--linkcolor);
-	font-size:15px;
+	font-size:.95rem;
+	font-weight:400;
+	padding-left: 1.5rem;
+}
+.a-logo{
+	padding-left:4rem;
 }
 .nav a img.cart{
 	width:20px;
@@ -30,8 +37,9 @@ body{
 /* end navbar */
 
 /*start section select-food*/
+
 .select-food{
-	height:600px;
+	padding-bottom:8rem;
 	background-image:url('../images/background.jpeg');
 	background-size:cover;
 }
@@ -80,16 +88,19 @@ body{
 	color: #969696;
 }
 .text .hr-text{
-	border-bottom:2px solid var(--backcolor);
+	border-bottom:1px solid var(--backcolor);
 	width:10%;
 }
 /*start section text*/
 
 /*start section meal*/
-.meal .p{
+.meal p{
 	color:#646464;
-	text-align:justify;
+	text-align:right!important;
 	
+}
+.meal .p{
+	padding-right:10rem;
 }
 /*end section meal*/
 
@@ -101,7 +112,7 @@ body{
 	display:flex;
 	justify-content:space-between;
 }
-.footer .top-links a,  .footer .copyright{
+.footer .top-links a, .footer .copyright{
 	color:white;
 }
 .footer .top-links a:hover{
@@ -109,7 +120,15 @@ body{
 }
 .footer .bottom-links a{
 	display:block;
-	color:white
+	color:white;
+	
+}
+.footer .bottom-links .social a i{
+	padding-left:.75rem
+}
+.footer .bottom-links a.btn{
+	    text-align: right;
+		padding-right: 0;
 }
 .footer .bottom-links p{
 	color:white;
@@ -120,3 +139,197 @@ body{
 	font-size:22px;
 }
 /*start footer*/
+
+/*start media query lg screen*/
+@media only screen and (max-width: 1199px) and (min-width: 992px){
+	.container{
+		max-width:992px;
+	}
+	.navbar{
+		padding: .5rem 0;
+		
+	}
+	.navbar-collapse {
+		padding-right: 50px;
+		padding-left: 0;
+	}
+	.navbar img.logo{
+		text-align:right;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		padding-left:.5rem;
+	}
+	.headings{
+		padding-top: 2.5rem!important;
+		    border-bottom: 1.5px solid rgba(255, 213, 0, .2);
+	}
+	.meal .p{
+		    padding-right: 4.5rem;
+	}
+
+}
+/*end media query lg screen*/
+
+/*start media query md screen*/
+@media only screen and (max-width: 991px) and (min-width: 768px)
+{
+	.container {
+    max-width: 768px;
+	}
+	.navbar{
+		padding: .5rem 0;
+		 
+	}
+	.navbar-collapse{
+		padding-left:0;
+	}
+	.a-logo{
+		text-align:right;
+	}  
+	 
+	.navbar-nav > li{
+		padding-left: .6rem;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		padding-left: .1rem;
+		padding-right: 0;
+		font-size: .74rem;
+		font-weight: 450;
+	}
+	.container{
+		padding-left:0;
+	}
+	.footer .top-links a{
+		padding-left: .7rem;
+	}
+	.footer .social{
+		text-align:left
+	}
+	
+}
+
+/*start media query md screen*/
+
+/*start media query sm screen*/
+@media only screen and (max-width: 768px) and (min-width: 576px)
+{
+	
+	.container {
+		max-width: 576px;
+	}
+
+	.navbar-collapse{
+		padding-right:0;
+	}
+	.a-logo{
+		text-align:right;
+	}
+	.navbar-light .navbar-toggler{
+		text-align:left!important;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		text-align:right;
+
+	}
+	.select-food h1{
+		font-size: 2.1rem;
+	}
+	.select-food p{
+		display:none
+	}
+	.headings p{
+		font-size:.9rem;
+	}
+	.meal img{
+		width:100%;
+	}
+	.meal .p{
+		padding-right:0;
+	}
+	.footer .top-links a{
+		font-size: .7rem;
+		font-weight: 900;
+	}
+	.footer .bottom-links p{
+		font-size: .74rem;
+		font-weight: 900;
+	} 
+	.footer .bottom-links a.btn{
+		font-size:.7rem
+	}
+	.social {
+    text-align: left;
+	}
+	.footer .social a.btn{
+		font-size:.8rem;
+		padding: .375rem 0;
+		padding-right:2rem;
+		display:block;
+	}
+	.copyright p{
+		font-size:.8rem;
+	}
+	
+}
+
+/*end media query sm screen*/
+
+/*start media query xs screen*/
+
+@media only screen and (max-width: 575px){
+ 	.navbar-collapse{
+		padding-right:0;
+	}
+	.a-logo{
+		text-align:right;
+	}
+	.navbar-light .navbar-toggler{
+		text-align:left!important;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		text-align:right;
+
+	}
+	.select-food h1{
+		font-size: 2.1rem;
+	}
+	.select-food p{
+		display:none
+	}
+	.headings p{
+		font-size:.9rem;
+	}
+	.meal img{
+		width:100%;
+	}
+	.meal .p{
+		padding-right:1.6rem;
+	}
+	.footer .top-links a{
+		font-size: .7rem;
+		font-weight: 900;
+	}
+	.footer .bottom-links p{
+		font-size: .74rem;
+		font-weight: 900;
+	} 
+	.footer .bottom-links a.btn{
+		font-size:.7rem
+	}
+	.social {
+    text-align: left;
+	}
+	.footer .social a.btn{
+		font-size:.8rem;
+		padding: .375rem 0;
+		padding-right:2rem;
+		display:block
+	}
+	.copyright p{
+		font-size:.8rem;
+	}
+	
+}
+		
+/*end media query xs screen*/
+
